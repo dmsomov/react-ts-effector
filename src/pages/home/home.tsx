@@ -1,5 +1,11 @@
 import { FC } from 'react';
 
-const Home: FC = () => <div></div>;
+import { TodoList } from 'components/todo-list';
+
+const Home: FC = () => (
+  <div>
+    <TodoList />
+  </div>
+);
 
 export default Home;
